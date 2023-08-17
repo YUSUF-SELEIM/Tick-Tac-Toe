@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.winning-style {
+    @apply bg-green-500 animate-pulse;
+    @apply font-bold;
+}
